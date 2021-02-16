@@ -1,11 +1,12 @@
 <script lang="ts">
 	export let name: string;
-</script>
 
-<svelte:head>
-  <style src="./assets/css/style.scss"></style>
-</svelte:head>
+</script>
 
 <main>
 	<h1>First Load {name}</h1>
 </main>
+
+<style lang="scss">
+	@import './assets/css/style.scss';
+</style>
