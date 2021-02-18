@@ -50,9 +50,13 @@ export default {
 			  }
 			}),
 		}),
-
+				
 		svelte({
-			preprocess: sveltePreprocess({ sourceMap: !production, scss: !production }),
+			preprocess: sveltePreprocess({ sourceMap: !production, 
+				scss: {
+					includePaths: ['src'],
+				}
+			}),
 			compilerOptions: {
 				// enable run-time checks when not in production
 				dev: !production
