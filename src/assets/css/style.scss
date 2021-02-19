@@ -78,7 +78,7 @@ pre {
 
 .showcase .grid {
   overflow: visible;
-  grid-template-columns: 55% auto;
+  grid-template-columns:  auto 50%;
   gap: 30px;
 }
 
@@ -89,8 +89,8 @@ pre {
 .showcase-form {
   position: relative;
   top: 60px;
-  height: 350px;
-  width: 400px;
+  height: 500px;
+  width: 600px;
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;

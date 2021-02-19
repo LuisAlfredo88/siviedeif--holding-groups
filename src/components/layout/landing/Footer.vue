@@ -3,15 +3,16 @@
     <footer class="footer bg-dark py-5">
         <div class="container grid grid-3">
             <div>
-                <h1>Loruki
+                <h1>Siviedeif Holding Groups
                 </h1>
-                <p>Copyright &copy; 2020</p>
+                <p>Copyright &copy; 2021</p>
             </div>
             <nav>
                 <ul>
-                    <li><a href="/">Home</a></li>
-                    <li><a href="/service">Services</a></li>
-                    <li><a href="/other">Docs</a></li>
+                    <li><router-link to="/pricing">Pricing</router-link></li>                    
+                    <li><router-link to="/about">About</router-link></li>     
+                    <li><router-link to="/careers">Careers</router-link></li>     
+                    <li><router-link to="/contact">Contact</router-link></li>   
                 </ul>
             </nav>
             <div class="social">
@@ -23,3 +24,9 @@
         </div>
     </footer>
 </template>
+
+<style>
+    footer ul li a:hover{
+        font-weight: bold;
+    }
+</style>
