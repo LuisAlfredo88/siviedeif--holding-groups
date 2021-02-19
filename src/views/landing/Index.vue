@@ -5,7 +5,7 @@
             <div class="showcase-text">
                 <h1>Hand-selected developers to fit your needs at scale</h1>
                 <p>We provide companies with senior tech talent and product development expertise to build world-class software.</p>
-                <a href="features.html" class="btn btn-outline">View Related Companies</a>
+                <router-link to="/service" class="btn btn-outline">View Related Companies</router-link>
             </div>
 
             <div class="showcase-form card">
@@ -56,7 +56,7 @@
     <!-- Cli -->
     <section class="cli">
         <div class="container grid">
-            <img src="/img/landing/cli.png" alt="">
+            <img src="@/assets/img/landing/cli.png" alt="">
             <div class="card">
                 <h3>Easy to use, cross platform CLI</h3>
             </div>
@@ -74,7 +74,7 @@
                 <p class="lead my-1">Cloud hosting like you've never seen. Fast, efficient and scalable</p>
                 <a href="features.html" class="btn btn-dark">Read More</a>
             </div>
-            <img src="/img/landing/cloud.png" alt="">
+            <img src="@/assets/img/landing/cloud.png" alt="">
         </div>
     </section>
 
@@ -89,31 +89,31 @@
             </p>
             <div class="card">
                 <h4>Node.js</h4>
-                <img src="/img/landing/logos/node.png" alt="">
+                <img src="@/assets/img/landing/logos/node.png" alt="">
             </div>
             <div class="card">
                 <h4>Python</h4>
-                <img src="/img/landing/logos/python.png" alt="">
+                <img src="@/assets/img/landing/logos/python.png" alt="">
               </div>
               <div class="card">
                 <h4>C#</h4>
-                <img src="/img/landing/logos/csharp.png" alt="">
+                <img src="@/assets/img/landing/logos/csharp.png" alt="">
               </div>
               <div class="card">
                 <h4>Ruby</h4>
-                <img src="/img/landing/logos/ruby.png" alt="">
+                <img src="@/assets/img/landing/logos/ruby.png" alt="">
               </div>
               <div class="card">
                 <h4>PHP</h4>
-                <img src="/img/landing/logos/php.png" alt="">
+                <img src="@/assets/img/landing/logos/php.png" alt="">
               </div>
               <div class="card">
                 <h4>Scala</h4>
-                <img src="/img/landing/logos/scala.png" alt="">
+                <img src="@/assets/img/landing/logos/scala.png" alt="">
               </div>
               <div class="card">
                 <h4>Clojure</h4>
-                <img src="/img/landing/logos/clojure.png" alt="">
+                <img src="@/assets/img/landing/logos/clojure.png" alt="">
               </div>
         </div>
     </section>

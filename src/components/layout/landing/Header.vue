@@ -2,7 +2,7 @@
     <div class="navbar">
         <div class="container flex">
             <h1 class="logo">
-                <img src="/img/landing/logo.png" />
+                <img src="@/assets/img/landing/logo.png" />
                 <span class="company-name">
                     <span class="red">S</span>IVIEDEIF <span class="red">H</span>OLDING <span class="red">G</span>ROUPS
                 </span>
@@ -26,19 +26,19 @@
                         </ul>
                     </li>
                     <li>
-                        <router-link to="/expertise">Expertise</router-link>
+                        <router-link to="/expertise">Expertise</router-link>                         
                         <ul class="sub-menu">
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7241"><a href="https://relevant.software/product-development/" class="menu-header-link">Product development</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7242"><a href="https://relevant.software/dedicated-team/" class="menu-header-link">Dedicated team</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-110"><a href="https://relevant.software/web-development/" class="menu-header-link">Web development</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-103"><a href="https://relevant.software/mobile-development/" class="menu-header-link">Mobile development</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-104"><a href="https://relevant.software/quality-assurance/" class="menu-header-link">Quality assurance</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-97"><a href="https://relevant.software/digital-design/" class="menu-header-link">Digital design</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a href="https://relevant.software/cybersecurity/" class="menu-header-link">Cybersecurity</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a href="https://relevant.software/devops/" class="menu-header-link">DevOps</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-7390"><a href="https://relevant.software/ai/" class="menu-header-link">AI&amp;ML</a></li>
-                            <li class="menu-item menu-item-type-post_type menu-item-object-page menu-item-11570"><a href="https://relevant.software/react-js-development-services/" class="menu-header-link">React.js development services</a></li>
-                        </ul>                        
+                            <li><router-link to="/service">Product development</router-link></li>
+                            <li><router-link to="/service">Dedicated team</router-link></li>
+                            <li><router-link to="/service">Web development</router-link></li>
+                            <li><router-link to="/service">Mobile development</router-link></li>
+                            <li><router-link to="/service">Quality assurance</router-link></li>
+                            <li><router-link to="/service">Digital design</router-link></li>
+                            <li><router-link to="/service">Cybersecurity </router-link></li>
+                            <li><router-link to="/service">DevOps</router-link></li>
+                            <li><router-link to="/service">AI&amp;ML</router-link></li>
+                            <li><router-link to="/service">React.js development services</router-link></li>
+                        </ul> 
                     </li>                    
                     <li><router-link to="/pricing">Pricing</router-link></li>                    
                     <li><router-link to="/about">About</router-link></li>     
