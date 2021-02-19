@@ -20,7 +20,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/siviedeif--holding-groups/img/logo.9d57a82e.png"
   },
   {
-    "revision": "3cae646ee8d75d7beaa5132712f82d46",
+    "revision": "97e5905ad2c958c1ad68561335a580a4",
     "url": "/siviedeif--holding-groups/index.html"
   },
   {
