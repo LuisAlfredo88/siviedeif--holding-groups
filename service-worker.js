@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/siviedeif--holding-groups/precache-manifest.a73b61d3a3d9ae4bcb7b01e26f9945ff.js"
+  "/siviedeif--holding-groups/precache-manifest.e0ffdae8a0dbb8f2b31ea029f6255d35.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "siviedeif-holding-groups"});
