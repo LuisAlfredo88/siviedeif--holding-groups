@@ -27,7 +27,7 @@
             <ul>
                 <li><a href="/">Home</a></li>
                 <li>
-                    <a href>Services</a>
+                    <span class="menu">Services</span>
                     <ul class="sub-menu">
                         <li><a href="/service">Product development</a></li>
                         <li><a href="/service">Dedicated team</a></li>
@@ -42,7 +42,7 @@
                     </ul>
                 </li>
                 <li>
-                    <a href="/expertise">Expertise</a>                         
+                    <span class="menu">Expertise</span>                         
                     <ul class="sub-menu">
                         <li><a href="/service">Product development</a></li>
                         <li><a href="/service">Dedicated team</a></li>
@@ -93,13 +93,14 @@
         }
     }
 
-    .navbar a {
+    .navbar a,
+    .navbar span.menu {
         color: #fff;
         padding: 10px;
         margin: 0 5px;
     }
 
-    .navbar a:hover {
+    .navbar a:hover{
         color: #fff;
         opacity: 1;
         font-weight: bold;
