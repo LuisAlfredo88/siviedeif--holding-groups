@@ -9,7 +9,7 @@
                         competition
                 </p>
             </div>
-            <img src="images/server.png" alt="">
+            <!-- <img src="images/server.png" alt=""> -->
         </div>
     </section>
 
@@ -22,7 +22,7 @@
                     Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolor cupiditate dignissimos temporibus perspiciatis quae! Suscipit qui, consectetur ea consequatur, doloribus repellendus quasi, aut corporis nam alias culpa. Nostrum, inventore accusantium!
                 </p>
             </div>
-            <img src="images/server2.png" alt="">
+            <!-- <img src="images/server2.png" alt=""> -->
         </div>
     </section>
 

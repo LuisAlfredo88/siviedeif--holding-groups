@@ -77,7 +77,7 @@
         z-index: 999;
         transition: all .5s;
         &.scroll {
-            background: rgba(0, 0, 0, 0.6);
+            /*background: rgba(0, 0, 0, 0.6);*/
             box-shadow: 1px 8px 14px rgba(0, 0, 0, 0.4);
         }
     }

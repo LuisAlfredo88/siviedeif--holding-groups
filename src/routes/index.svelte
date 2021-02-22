@@ -2,7 +2,7 @@
     import { onMount } from 'svelte';
 
 	onMount(()=>{	
-		setInterval(function(){ 
+		setTimeout(function(){ 
 			const elementsPart = document.querySelector('.banner-elements-part');
 			elementsPart.classList.add('active');        
 		}, 500);

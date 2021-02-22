@@ -7,8 +7,6 @@
 <slot></slot>
 <Footer />
 
-<svelte:head>
-	<style lang="scss"> 	
-		@import '../../../assets/css/landing/style.scss'; 
-	</style>
-</svelte:head>
+<style lang="scss" global>
+	@import '../../../assets/css/landing/style.scss'; 
+</style>
