@@ -1,0 +1,5 @@
+apps:
+    - name: express-typescript-api
+      script: ./__sapper__/build/index.js
+      exec_mode: cluster
+      instances: 2

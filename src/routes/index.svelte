@@ -11,7 +11,7 @@
 </script>
 
 <svelte:head>
-	<title>Sapper project template</title>
+	<title>Siviedeif Holding Groups</title>
 </svelte:head>
 
 <main>
